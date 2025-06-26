@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+.venv/
+venv/
+lib/
+include/
+bin/
+pip-log.txt
+pip-delete-this-arg.txt
+.tox/
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+pytest_html/
+.nox/
+.ipynb_checkpoints
+.mypy_cache/
+.dmypy.json
+dmypy.json
+celerybeat-schedule/
+logs/
+*.log
+local_settings.py
+db.sqlite3
+*.vault
+.spyproject/
+.idea/ # If using PyCharm
+.vscode/ # If using VS Code (optional, but often contains user-specific settings)
+
+# Google API Credentials & Tokens
+credentials.json
+app/credentials.json # Explicitly ensure it's ignored if in app/
+token.pickle
+app/token.pickle     # Explicitly ensure it's ignored if in app/
+
+# Environment variables
+.env
